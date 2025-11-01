@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Educação Positiva — SPA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/logo.svg" alt="Logo Educação Positiva" class="logo">
+      <h1>Educação Positiva</h1>
+    </div>
+
+    <nav class="nav">
+      <button id="hamburger" aria-label="Abrir menu" class="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-list" id="navList">
+        <li><a href="#/inicio" data-link>Início</a></li>
+        <li class="has-dropdown">
+          <a href="#/projetos" data-link>Projetos ▾</a>
+          <ul class="dropdown">
+            <li><a href="#/projetos" data-link>Todos</a></li>
+            <li><a href="#/projetos#bem-estar" data-link>Bem-estar</a></li>
+            <li><a href="#/projetos#alegria" data-link>Aprender com alegria</a></li>
+          </ul>
+        </li>
+        <li><a href="#/cadastro" data-link>Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="app" class="fade-in">
+    <!-- Views will be injected here -->
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Educação Positiva — Inspirando aprendizagens com empatia.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
