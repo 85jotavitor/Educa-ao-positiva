@@ -6,7 +6,7 @@ Tema: **Educação Positiva** — promovendo empatia, curiosidade e bem-estar no
 ---
 
 ##  Acesse o site
- [https://85jotavitor.github.io/educacao-positiva/](https://85jotavitor.github.io/educacao-positiva/)
+https://85jotavitor.github.io/Educa-ao-positiva/
 
 ---
 
@@ -23,7 +23,14 @@ Tema: **Educação Positiva** — promovendo empatia, curiosidade e bem-estar no
 - **Design leve e natural**, em tons pastel e transições suaves
 - **Armazenamento local (localStorage)** para simular envio de cadastros
 
----
+---## 
+Estrutura do projeto
+educacao-positiva/
+│
+├── index.html # Página principal (SPA)
+├── style.css # Estilos e layout responsivo
+├── script.js # Lógica do SPA e validação
+└── images/ # Logos e ilustrações SVG
 ---
 
 ##  Prévia do layout
@@ -47,10 +54,4 @@ Este projeto demonstra como o design e a tecnologia podem refletir esses valores
 
 ##  Autor
 Desenvolvido por **João Vitor da Silva Alves**  
- *[adicione seu e-mail se quiser]*  
- [https://github.com/85jotavitor](https://github.com/85jotavitor)
 
----
-
-
-## 🧩 Estrutura do projeto
